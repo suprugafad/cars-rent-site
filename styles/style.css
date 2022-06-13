@@ -111,7 +111,7 @@ body{
 }
 
 .sub-title {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 60px;
     line-height: 70px;
     color: #030305;
@@ -130,8 +130,12 @@ body{
     margin-top: 40px;
 }
 
-.car-item-img {
+.car-item-img:hover img {
+    transform: scale(1.1);
+}
+.car-item-img img {
     vertical-align: bottom;
+    transition: all .3s;
 }
 
 .car-item-title {
